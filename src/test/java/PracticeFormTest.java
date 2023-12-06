@@ -2,6 +2,7 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
@@ -46,7 +47,7 @@ public class PracticeFormTest {
                 text("7985449730"),
                 text("02 August,1994"),
                 text("English, Arts"),
-                text("Sports, Music"),
+                text("Sports"),
                 text("cat.png"),
                 text("Some street 1"),
                 text("NCR Delhi"));
